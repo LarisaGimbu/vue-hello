@@ -1,0 +1,23 @@
+header{
+  background-color: bisque;
+}
+
+.red{
+  background-color: rgb(201, 87, 87);
+}
+
+.yellow{
+  background-color: rgb(255, 255, 126);
+}
+
+.blue{
+  background-color: rgb(88, 88, 223);
+}
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
