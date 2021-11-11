@@ -12,6 +12,7 @@ const app = new Vue({
     userName:'',
     headerColor:'',
     textColor:'black',
+    avatar:'https://www.google.it/url?sa=i&url=https%3A%2F%2Fwww.fiverr.com%2Fanyavergara%2Fmake-you-a-game-of-thrones-avatar&psig=AOvVaw3Bwswk61sotR_2FOROSqpf&ust=1636642033057000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDhqeqEjvQCFQAAAAAdAAAAABAb',
   },
   methods:{
     colorRed(){
@@ -32,6 +33,13 @@ const app = new Vue({
       }else{
         this.textColor = 'black';
       }
+    },
+    maleAvatar(){
+      this.avatar ='https://clipart.world/wp-content/uploads/2020/07/jon-snow-icon.jpg';
+    },
+    femaleAvatar(){
+      this.avatar ='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/127093048/original/b9df84e3f78ea83fd605105229120fce733a44e1/make-you-a-game-of-thrones-avatar.png';
     }
+
   }
 });

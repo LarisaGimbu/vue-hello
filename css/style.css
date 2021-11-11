@@ -21,3 +21,7 @@ header{
 .black{
   color: black;
 }
+
+img{
+  width: 200px;
+}

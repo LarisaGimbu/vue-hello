@@ -22,6 +22,14 @@
       <button @click="colorRed" type="button" class="btn btn-danger">Red</button>
       <button @click="colorYellow" type="button" class="btn btn-warning">Yellow</button>
       <button @click="colorBlue" type="button" class="btn btn-primary">Blue</button>
+
+
+      <h3 class="pt-5">Scegli il tuo avatar:</h3>
+      <button @click='maleAvatar' type="button" class="btn btn-outline-primary">Male</button>
+      <button @click='femaleAvatar' type="button" class="btn btn-outline-danger">Female</button>
+      <section>
+        <img :src="avatar" alt="">
+      </section>
     </main>
 
   </div>
